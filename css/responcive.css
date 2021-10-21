@@ -1,0 +1,318 @@
+@media(max-width:1110px) {
+    .collection{
+        margin: 0 200px;
+    }
+    .row{
+        display: block;
+    }
+    .container{
+        max-width: 930px;
+    }
+    .column4{
+        width: 59%;
+        display: inherit;
+    }
+    .collection-text{
+        width: 61%;
+    }
+    .collection .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .collection-text p {
+        width: 301px;
+    }
+    .why-content p{
+        width: 225px;
+        margin: 0 142px;
+    }
+    .why-content  .row{
+        flex-direction: column;
+        flex-wrap: wrap;    
+    }
+    .column3{
+        width: 75%;
+    }
+    .column3:nth-child(1) {
+        margin-bottom: 20px;
+    }
+    .column3:nth-child(2) {
+        margin-bottom: 20px;
+    }
+    .why-content p {
+        width: 225px;
+        margin: 0px 73px;
+    }
+    .why-content{
+        padding: 24px 125px 25px 141px;
+    }
+    .why{
+        width: 100%;
+        height: 100vh;
+    }
+    .how-work {
+        margin-top: 402px;
+    }
+    .how-work .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer img{
+        order: 1;
+
+    }
+    .footer-links{
+        margin: 28px 0;
+    }
+    .country .row{
+        display: flex;
+    }
+    .commitment .row {
+        display: flex;
+    }
+    .commitment{
+        margin-bottom:200px ;
+    }
+    .uncompromis-img  {
+          width: 76%;
+          left: 12%;
+          top: -38%;
+        
+    }
+    .uncompromis .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .un-title{
+        width: 72%;
+        padding: 225px 0px 66px 122px;
+    }
+    .un-p{
+        text-align: center;
+    }
+    .descrop-img {
+        display: none;
+    }
+    .responsive-img{
+        display: block;   
+        width: 100%;
+    }
+ .question-near .row {
+   display: flex;
+   flex-direction: column-reverse;
+}
+.how-work-helper {
+    margin-top: 0px; 
+    
+}
+.ques-column{
+    display: none;
+}
+}
+
+@media(max-width:767px){
+    .container{
+        padding: 0 30px;
+    }
+    .container-mini{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .nav {
+        display: none;
+    }
+    .menu-toogle{
+        display: block;
+    }
+    .intro{
+        background-position: center center;
+        background-size: cover;
+    }
+    .intro h1{
+        font-size: 4.5rem;
+        line-height: 4rem;
+        padding-top:50px ;
+        width: 374px;   
+    }
+    .intro-title{
+        width: 61%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .column4 {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .collection-img {
+        margin: 0 auto;
+    }
+    .collection-text {
+        width: 91%;
+    }
+    .collection-text p {
+        width: 357px;
+    }
+    .why .container{
+        background-position: center center;
+        background-size: cover;
+        height: 232%;
+    }
+    .why-content p {
+        width: 169px;
+        margin: 0px auto;
+    }
+    .why-content {
+        padding: 24px 59px 25px 21px;
+    }
+    .column3 {
+        width: 57%;
+    }
+    .best-list .row {
+        position: relative;
+        top: -94px;
+        width: 68%;
+        margin: 0 auto ;
+    }
+    .how-work {
+        margin-top: 0px;
+    }
+    .how-work .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .shape {
+        display: none;
+    }
+   
+    .column-work {
+        width: 54%;
+        margin: 0 auto;
+    }
+    .about{
+        background-position: center center;
+        background-size: cover;
+    }
+    .about-title{
+        font-size: 1.4rem;
+        line-height: 3rem;
+        width: 80%;
+    }
+    .commitment .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+        .commitment-img {
+            width: 100%;
+        }
+        .commitment-text p{
+            width: 100%;
+        }
+        .uncompromis {
+            margin-top: 244px;
+            padding: 0 30px;
+            top: -29%;
+        }
+        .uncompromis-img {
+            width: 70%;
+            top: -29%;
+        }
+            
+         .un-title {
+          width: 72%;
+           padding: 116px 0px 66px 100px;
+            }
+      .un-p{
+          width: 402px;
+          font-size: 1.5rem;
+            }
+     .country{
+       margin: 0;
+            }
+      .country .row {      
+       display: flex;
+            flex-direction: column;
+    }
+      .plan-title h2 {
+          font-size: 66px;}
+
+    .column-work-helper h4 {
+          margin-top: 0;}
+          .column-work-helper{
+            width: 90%;
+            margin: 0 auto ;
+            text-align: center;
+          }
+          .how-work-helper{
+              padding: 10PX;
+          }
+          .column-work-helper p{
+            width: 90%;
+            text-align: center;
+            font-size: 1.9rem;
+            line-height: 3.1rem;  
+          }
+          .order-btn{
+            margin: 0 85px;
+          }
+          .main-nav {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 24px;
+            right: 24px;
+            margin-top: 24px;
+            padding: 15px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 4px;
+            z-index: 1;
+        }
+        .main-header.on:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 100%;
+            height: 600px;
+            background: linear-gradient(180deg, #2D314D 0%, rgba(45, 49, 77, 0.0001) 100%);
+        }
+        .main-header .menu-toggle.open {
+            display: block;
+        }
+        .main-header .menu-toggle.close {
+            display: none;
+        }
+        .main-header.on .menu-toggle.open {
+            display: none;
+        }
+        .main-header.on .menu-toggle.close {
+            display: block;
+        }
+        .main-nav-link {
+            display: block;
+            font-size: 18px;
+            padding: 15px 0;
+        }
+        .main-nav-link:after {
+            bottom: 0;
+            width: 50px;
+            left: 50%;
+            margin-left: -25px;
+        }
+        .menu-toggle {
+            display: block;
+            border: none;
+            background: transparent;
+        }
+            
+
+    
+}

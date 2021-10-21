@@ -1,0 +1,633 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:wght@400;900&display=swap');
+
+@import url(../acordion.css);
+
+@import url(./fonts.css);
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.row{
+    display: flex;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.container-mini{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+:root {
+  font-size: 12px;
+}
+/*==================================
+  header
+====================================*/
+
+.home-main .row{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-main{
+    padding: 18px 0;
+   
+}
+.nav{
+    margin: 0;
+}
+.nav-link{   
+  font-family: 'Barlow';
+  font-weight: bold;
+  font-size: 1 row;
+  line-height: 1.2 row;
+  text-transform: uppercase;
+  color: #83888F;
+  margin-left: 10px;
+}
+.menu-toogle{
+    display: none;
+}
+.menu-close{
+    display: none;
+}
+/*==============================
+ home
+================================*/
+.intro{
+    background-image: url(../img/homeimg/Bitmap\ \(3\).png);
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    width: 90%;
+    margin: 0 auto;
+}
+.intro-title{
+   width: 40%; 
+   margin: -31px 20px;
+}
+.intro h1{
+    width: 500px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 6rem;
+   line-height: 6rem;
+   color: #FEFCF7;
+   padding-top: 150px;
+}
+.intro p{
+    font-family: 'Barlow';
+    font-size: 1.33rem;
+    line-height: 2.33rem;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+.btn{  
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+   text-align: center;
+  color: #FEFCF7;
+  background:  #0E8784;
+  border-radius: 6px;
+  margin-top: 56px;
+  margin-bottom: 100px;
+  border: none;
+  padding: 10px 20px;
+  
+}
+/*================================
+   About
+==================================*/
+.collection .container {
+   padding: 100px 0;
+}
+/*.collection-bg-img {
+    background-image: url(../img/homeimg/our\ collection.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+   
+}*/
+/*.collection .row{
+    position: absolute;
+}*/
+.collection-img{
+    width: 200px;
+    height: 145px;
+}
+.column4{
+    width: 25%;
+
+}
+.collection-text{
+    width: 88%;
+}
+.collection-text h3{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #333D4B;
+}
+.collection-text p  {
+    width: 245px;
+    text-align: center;
+    font-family: 'Barlow';
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    text-align: center;
+    color: #333D4B;
+}
+/*========================
+   why
+==========================*/
+.why{
+    display: flex;
+    justify-content: center;
+   
+}
+.why .container{
+    max-width: 1120px;
+    background-image: url(../img/homeimg/Bitmap\ \(10\).jpg);
+    border-radius: 24px; 
+}
+.why-title{
+    padding: 70px 30px 150px 30px;
+    width: 100%;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 3.3rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #FEFCF7;
+}
+.why-title p {
+    width: 63%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.8;
+}
+ .column3:nth-child(1){
+  margin-right:20px ;
+}
+.column3:nth-child(2){
+    margin-right:20px ;
+  }
+.column3{
+    width: 31%;
+    background-color: #0E8784;
+    border-radius: 8px ;
+}
+.best-list .row{
+    position: relative;
+    top: -91px;;
+    width: 100%;
+}
+.why-title h2{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+.why-content {
+    width: 90%;
+    color:#FEFCF7;
+    padding: 72px 35px 10px 60px;
+    text-align: center;
+}
+.why-content h4{
+    font-family: 'Fraunces'; 
+    font-weight: 900;
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+    text-align: center;
+    }
+
+.why-content p  {
+    width: 185px;
+    text-align: center;
+    font-family: 'Barlow';
+    font-size: 1rem;
+    line-height: 2.2rem;
+    text-align: center;
+}
+/*=====================================
+            how it works
+======================================*/
+.how-work{
+    margin-top: 50px ;
+    padding: 50px 20px;
+    background: #FEFCF7;
+
+}
+.how-work .row{
+    margin: 50px 0 0 0 ;
+}
+.text-grey {
+    color: #83888F;
+}
+.shape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.circle {
+  
+    border: 0.1875em solid #0E8784;
+    ;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 3em;
+    width: 3em;
+ }
+ .line{
+    border:1px solid #FDD6BA;
+    width: 30%;
+ }
+.number-work{
+    width: 90px;
+    height: 72px;
+    color: #FDD6BA;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 6rem;
+}
+.column-work h4 {
+    color: #333D4B;
+    font-weight: 900;
+    font-size: 4.6rem;
+    line-height: 4rem;
+}
+.column-work{
+    width:33%;
+}
+.column-work p {
+    width: 76%;    
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    color: #333D4B;
+}
+/*=========================================
+      Footer
+===========================================*/
+.footer  {
+    background: #2C343E;
+    padding: 66px;
+}
+.footer .row{
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-link{
+    color: #83888F;
+    margin: 15px;
+    
+}
+.foot-link:hover{
+    color:#fff;
+    font-size: 1.5rem;
+}
+.footer-link:nth-child(1){
+    margin-right: 13px;
+}
+.footer-link:nth-child(2){
+    margin-right: 13px;
+}
+.footer-link{
+    font-size: 30px;
+}
+/*=============================================================================================
+
+
+==============================================================================================*/
+
+/*
+
+/*===================================
+        about as
+=====================================*/
+
+.about  {
+    background-image: url(../img/aboutimg/first.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 90%;
+    height: 90vh;
+    margin: 0 auto;
+}   
+.responsive-img{
+    display: none;
+}
+.about-title{
+    color: #FEFCF7;
+    width: 50%;
+    padding-top: 150px;
+    margin: 0 9px 7px 0;
+}
+.about-title h2{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 3.4rem;
+    line-height: 4rem;
+}
+.about-title p{
+    font-family: 'Barlow';
+    font-size: 1.4rem;
+    line-height: 2rem;   
+}
+/*=============================
+  our commitment
+==============================*/
+.commitment .row{
+  flex-direction: row;
+  
+}
+.commitment-img{
+    width: 49%;
+}
+.commitment-img img{
+    width: 100%;
+}
+.commitment-text{
+    width: 51%;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.commitment-text p{
+    font-family: 'Barlow';
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #333D4B;
+    opacity: 0.8;
+}
+.commitment-text h3{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 3.3rem;
+    line-height: 2.1rem;
+    color: #333D4B;
+}
+/*===============================
+       uncompromis
+================================*/
+.uncompromis{
+    margin-top: 50px;
+    width: 92%;
+}
+.uncompromis .container{
+    background-image: url(../img/aboutimg/uncompromissing.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 90%;
+}
+.uncompromis .row{
+    flex-direction: row;
+}
+.uncompromis-img{
+    width: 40%;
+    position: absolute;
+    left: 58%;
+    top: -15%;
+}
+.descrop-img{
+    width: 93%;
+    height: 92%;
+}
+.responsive-img{
+    display: none;
+}
+.un-title{
+    width: 57%;
+    padding: 57px 0px 67px 40px;
+}
+.un-title h3{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-top: 0;
+}
+.un-p{
+    opacity: 0.8;
+    width: 505px;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: #FEFCF7 ;
+}
+/*==============================
+ country
+================================*/
+.country{
+    margin-top: 150px;
+    width: 100%;
+}
+.country-text h5 {
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 2.6rem;
+    line-height: 3rem;
+    color: #333D4B;
+}
+.address{
+    width: 52%;
+    font-family: 'Barlow';
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    color: #333D4B;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 122px;
+}
+/*====================================================================================================
+ plan
+======================================================================================================*/
+.plan {
+    background-image: url(../img/create/Bitmap\ \(9\).jpg);
+    background-repeat: no-repeat;
+    padding: 60px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    width: 90%;
+    height: 90vh;
+}
+
+.plan-title{
+    padding-top: 13px;
+    padding-bottom: 150px;
+}
+.plan-title h2{
+    font-size: 72px;
+    line-height: 72px;
+}
+.plan-title p {
+    opacity: 0.8;
+}
+/*===========================
+  how-work
+============================*/
+.how-work-helper{
+    background-image: url(../img/homeimg/Bitmap\ \(10\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin: 0 auto;
+}
+.column-work-helper h4  {
+    color: #FEFCF7;
+    font-size: 3.6rem;
+    margin-bottom: 0;
+
+}
+.column-work-helper p{
+    color:  #FEFCF7;
+}
+/*=====================================
+       question-near
+======================================*/
+.question-near{
+    margin-top: 100px;
+    width: 100%;
+}
+.accordion-helper{
+    box-shadow: none;
+    
+}
+.link-li{
+    color: #333D4B;
+    font-family: Fraunces 9pt;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+}
+.link-li-number{
+  color: #0E8784;
+}
+.question-near h2{
+   font-family: 'Fraunces';
+   font-weight: 900;
+   font-size: 2rem;
+   line-height: 3.5rem;
+   color: #83888F;
+}
+.order{
+    background-image: url(../finishaccor.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 20px 50px;
+    margin-top: 50px;
+}
+.order p{
+   color: #FFFFFF;
+   font-family: 'Fraunces';
+   font-weight: 900;
+   font-size: 2rem;
+   line-height: 4rem;
+}
+.link-li:hover{
+    opacity: 0.5;
+}
+.order-btn{
+    margin-left: 53px;
+    transition: opacity 500ms ease;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+   /* background-color: rgb(0,0,0); /* Fallback color */
+   /* background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  } 
+  
+  /* Modal Content*/ 
+  .modal-content  {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px 25px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  .modal-content h2{
+      padding: 10px 5px;
+      background-color: #222;
+      color:#fff;
+      font-family:'Fraunces';
+     font-weight: 900;
+     font-size: 40px;
+     line-height: 48px;
+  }
+  .modal-content p{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #83888F;
+  }
+  .modal-span{
+      color:#0E8784;
+  }
+  .modal-text-span{
+    font-family: 'Barlow';
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    width: 70%;
+  }
+  .modal-dollor{
+   font-family: 'Fraunces';
+   font-weight: 900;
+   font-size: 32px;
+   line-height: 36px;
+   color: #333D4B;
+  }
+  .modal-finished button {
+   width: 21%;
+   background-color: #66D2CF;
+   color: #fff;
+   font-size: 16px;
+   font-weight: 900;
+   padding: 10px 20px;
+   border: none;
+  }
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
