@@ -8,6 +8,9 @@
     .container{
         max-width: 930px;
     }
+    .nav{
+        display: block;
+    }
     .column4{
         width: 59%;
         display: inherit;
@@ -118,7 +121,7 @@
 
 @media(max-width:767px){
     .container{
-        padding: 0 30px;
+        padding: 8px 8px;
     }
     .container-mini{
         max-width: 100%;
@@ -127,7 +130,17 @@
     .nav {
         display: none;
     }
-    .menu-toogle{
+    .home-main .menu-toogle.open  {
+        display: block;
+    }
+    .home-main.on .menu-toogle.open{
+        display: none;
+    }
+    .home-main.on .nav{
+      background-color: #2D314D;
+      
+    }
+    .home-main.on .menu-toogle.close{
         display: block;
     }
     .intro{
@@ -312,7 +325,5 @@
             border: none;
             background: transparent;
         }
-            
-
-    
 }
+

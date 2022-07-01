@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="./css/responcive.css">
 </head>
 <body>
-    <header id="header-main" class="home-main">
+    <header id="mainheader" class="home-main">
         <div class="container">
             <div class="row">
                 <a href="#"> <img src="./img/homeimg/Group 5 (1).svg" alt="group"> </a>
-                <button class="menu-toogle open" onclick="openMenu()" > <img src="./img/menu.svg" alt="">  </button>
+               <button  class="menu-toogle open" onclick="openMenu()"><img src="./img/menu.svg" alt=""> </button>
                <button class="menu-toogle close" onclick="closeMenu()"  > <img src="./img/close.svg" alt=""> </button>
         
-                <nav id="main-nav" class="nav">
-                    <a class="nav-link" href="./index-home.html">Home</a>
+                <nav id="mainnav" class="nav">
+                    <a class="nav-link" href="./index.html">Home</a>
                     <a class="nav-link" href="./about.html"> About Us</a>
                     <a class="nav-link" href="./create.html">Create Your Plan</a>
                 </nav>
@@ -167,7 +167,7 @@
     </section>
     
         <div class="container">
-            <footer class="footer">
+          <footer class="footer"> 
             <div class="container-mini">
                 <div class="row">
                     <a href="#"> <img src="./img/homeimg/Group 5.svg" alt="logo"> </a>
@@ -189,7 +189,7 @@
     </footer>
     <script>
         // Get the modal
-        var modal = document.getElementById("");
+        var modall = document.getElementById("open");
 
         // Get the button that opens the modal
         var btn = document.getElementById("myBtn");
@@ -199,36 +199,39 @@
 
         // When the user clicks the button, open the modal 
         btn.onclick = function () {
-            modal.style.display = "block";
+            modall.style.display = "block";
         }
 
         // When the user clicks on <span> (x), close the modal
         span.onclick = function () {
-            modal.style.display = "none";
+            modall.style.display = "none";
         }
 
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
+            if (event.target == modall) {
+                modall.style.display = "none";
             }
         }
     </script>
 
 <script>
 
-    const menu = document.getElementById('main-nav');
-    const header = document.getElementById('header-main');
+    const menu = document.getElementById('mainnav');
+    const header = document.getElementById('mainheader');
 
-    function openMenu() {
+    function openMenu () {      
         menu.style.display = 'block';
-        header.classList = 'header-main on';
+        console.log('menu');
+        header.classList = 'home-main on';
     }
-
+  
     function closeMenu() {
         menu.style.display = 'none';
-        header.classList = 'header-main';
+        console.log('close')
+        header.classList = 'home-main';
     }
+    
 
     const modal = document.getElementById('requestModal');
 

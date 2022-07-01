@@ -9,15 +9,17 @@
     <link rel="stylesheet" href="./css/responcive.css">
 </head>
 <body>
-    <header class="home-main">
+    <header id="mainheader" class="home-main">
         <div class="container">
             <div class="row">
                 <a href="#"> <img src="./img/homeimg/Group 5 (1).svg" alt="group"> </a>
-                <a href="#"> <img class="menu-toogle" src="./img/menu.svg" alt="menu"> </a>
-                <nav class="nav">
-                    <a class="nav-link" href="index-home.html">Home</a>
-                    <a class="nav-link" href="about.html"> About Us</a>
-                    <a class="nav-link" href="create.html">Create Your Plan</a>
+               <button  class="menu-toogle open" onclick="openMenu()"><img src="./img/menu.svg" alt=""> </button>
+               <button class="menu-toogle close" onclick="closeMenu()"  > <img src="./img/close.svg" alt=""> </button>
+        
+                <nav id="mainnav" class="nav">
+                    <a class="nav-link" href="./index.html">Home</a>
+                    <a class="nav-link" href="./about.html"> About Us</a>
+                    <a class="nav-link" href="./create.html">Create Your Plan</a>
                 </nav>
             </div>
         </div>
@@ -101,7 +103,7 @@
                                 <h2></i>How do you drink your coffee?</h2>
                                 <p>
                                 <div class="accardion-element">
-                                    <div>
+                                    <div class="accardion-text" >
                                         <h5>Capsule</h5>
                                         <p>Compatible with Nespresso systems and similar brewers</p>
                                     </div>
@@ -239,14 +241,15 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
+    
         <div class="container">
+            <footer class="footer">
             <div class="container-mini">
                 <div class="row">
                     <a href="#"> <img src="./img/homeimg/Group 5.svg" alt="logo"> </a>
 
                     <div class="footer-links">
-                        <a class="foot-link" href="./index-home.html">HOME</a>
+                        <a class="foot-link" href="./index.html">HOME</a>
                         <a class="foot-link" href="./about.html">ABOUT US</a>
                         <a class="foot-link" href="./create.html">CREATE YOUR PLAN</a>
                     </div>
@@ -263,7 +266,27 @@
             </div>
         </div>
     </footer>
+    <script>
 
+const menu = document.getElementById('mainnav');
+    const header = document.getElementById('mainheader');
+
+    function openMenu () {      
+        menu.style.display = 'block';
+        console.log('menu');
+        header.classList = 'home-main on';
+    }
+  
+    function closeMenu() {
+        menu.style.display = 'none';
+        console.log('close')
+        header.classList = 'home-main';
+    }
+    
+
+    
+        
+    </script>
 
 </body>
 </html>
